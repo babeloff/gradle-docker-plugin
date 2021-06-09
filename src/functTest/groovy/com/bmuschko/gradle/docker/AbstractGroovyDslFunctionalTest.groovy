@@ -89,6 +89,10 @@ abstract class AbstractGroovyDslFunctionalTest extends AbstractFunctionalTest {
         generateRandomUUID()
     }
 
+    protected static String createUniqueVolumeName() {
+        generateRandomUUID()
+    }
+
     private static String generateRandomUUID() {
         UUID.randomUUID().toString().replaceAll('-', '')
     }

@@ -1,6 +1,11 @@
 == Change Log
 
 [discrete]
+=== v7.0.1 (Jun 2, 2021)
+
+* Added Volume API
+
+[discrete]
 === v7.0.0 (May 2, 2021)
 
 * **Breaking Change!** Change source and target compatibility of plugin to Java 11

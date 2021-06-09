@@ -66,3 +66,15 @@ The plugin provides the following custom task types for managing networks:
 |{uri-ghpages}/api/com/bmuschko/gradle/docker/tasks/network/DockerInspectNetwork.html[DockerInspectNetwork] |Returns low-level information on the network.
 |{uri-ghpages}/api/com/bmuschko/gradle/docker/tasks/network/DockerRemoveNetwork.html[DockerRemoveNetwork]   |Removes the network.
 |=======
+
+==== Volumes
+
+The plugin provides the following custom task types for managing volumes:
+
+[options="header"]
+|=======
+|Type                                                                                                                                                        |Description
+|{uri-ghpages}/api/com/bmuschko/gradle/docker/tasks/network/DockerCreateVolume.html[DockerCreateVolume]   |Creates a volume.
+|{uri-ghpages}/api/com/bmuschko/gradle/docker/tasks/network/DockerInspectVolume.html[DockerInspectVolume] |Returns low-level information on the volume.
+|{uri-ghpages}/api/com/bmuschko/gradle/docker/tasks/network/DockerRemoveVolume.html[DockerRemoveVolume]   |Removes the volume.
+|=======
